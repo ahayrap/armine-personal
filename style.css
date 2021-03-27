@@ -9,7 +9,7 @@ body, html{
 }
 .parallax1{
   position: ;
-  background-image: url('../photos/parallax1.jpg');
+  background-image: url('photos/parallax1.jpg');
   height: 100%;
   background-attachment: fixed;
   background-position: center;
