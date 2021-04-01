@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body, html{
+  height: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+.parallax1{
+  background-image: url('../photos/parallax3.jpg');
+  height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+nav{
+    background-color: #333333;
+    overflow: hidden;
+    height: auto;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+}
+.menuLeft{
+  float: left;
+  padding-left: 40px;
+
+}
+
+.menuRight{
+  float:right;
+  padding-right: 40px;
+
+}
+.clearfixR{
+  clear: right;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+
+}
+li{
+  display: inline-block;
+}
+
+li a, .menuLeft a {
+  display: block;
+  color: #FFF;
+  text-align: center;
+  padding: 20px;
+  text-decoration: none;
+  font-size: 20px;
+  transition: all .2s ease-in-out;
+
+}
+
+#myLogo span{
+  position: relative;
+  top: -10px;
+  left: 10px;
+}
+
+li a:hover {
+
+  transform: scale(1.2,1.2); /* Standard syntax */
+}
+.armine{
+  background-color: hsla(0, 0%, 0%, 0.1);
+  width: 80%;
+  height: 90%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  border-radius: 40px;
+}
+.grid-container {
+  margin-top: 150px;
+  display: grid;
+  grid-template-columns: 40% auto;
+}
+
+.homePage h4{
+  margin-top: 30px;
+  color: #fff;
+  font-size: 20px;
+}
+section h3{
+  text-align: center;
+  color: #fff;
+  font-size:30px;
+    margin-top: 150px;
+}
+section h2{
+  margin-top: 15px;
+  text-align: center;
+  color: #fff;
+  font-size:40px;
+}
